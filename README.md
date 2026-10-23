@@ -37,7 +37,7 @@ Laboratorio práctico de ciberseguridad desarrollado en un entorno virtualizado 
 | Reenvío X11 habilitado | Configuración de `X11Forwarding no` |
 | Actualización de seguridad disponible para OpenSSH | Actualización a `1:9.6p1-3ubuntu13.20` |
 | Posibles CVE identificadas mediante escaneo | Revisión preliminar; sin explotación ni confirmación de vulnerabilidad |
-
+| Autenticación SSH por contraseña habilitada | Riesgo residual: migrar a autenticación mediante claves SSH y deshabilitar contraseñas después de verificar el acceso|
 ## Validación
 
 Se comprobó la configuración efectiva de SSH mediante `sshd -T`, se verificó la sintaxis con `sshd -t` y se confirmó posteriormente la disponibilidad del servicio mediante Nmap.
